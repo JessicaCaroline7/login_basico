@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    background: #135816;
+}
+
+.container{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 60px 45px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 19px;
+}
+
+.container .title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #135816;
+}
+
+.container form .campos{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.container form .campos .input{
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    border: none;
+    background: #eeeeee;
+}
+
+.container form .btn{
+    width: 70%;
+    margin: 20px auto 0;
+    background: #135816;
+    padding: 12px;
+    text-align: center;
+    border-radius: 25px;
+}
+.container form .btn input{
+    color: #fff;
+}
+
+.container form .campos i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #1d2120;
+    font-size: 14px;
+}
+
+.container .login a{
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.container .cadastre a{
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+input[type=submit]{
+    background-color:#135816;
+    border: none;
+    cursor: pointer;
+}
+
+.msg-erro{
+    width: 330px;
+    margin: auto;
+    padding: 10px;
+    background-color: #135816;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family:sans-serif;
+
+}
+
+#msg-sucesso{
+    width: 330px;
+    margin: auto;
+    padding: 10px;
+    background-color: #135816;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family:sans-serif;
+}
